@@ -1,0 +1,22 @@
+{
+  "page": {
+    "margin_top_mm": 25.4,
+    "margin_bottom_mm": 25.4,
+    "margin_left_mm": 25.4,
+    "margin_right_mm": 25.4
+  },
+  "styles": {
+    "Body Text": {
+      "font_size_pt": 12,
+      "line_spacing": {"mode": "multiple", "value": 1.5},
+      "first_line_indent": {"unit": "character", "value": 2}
+    }
+  },
+  "references": {
+    "profile": "preserve",
+    "edition": null,
+    "transform_entry_text": false,
+    "reorder_entries": false,
+    "renumber_citations": false
+  }
+}

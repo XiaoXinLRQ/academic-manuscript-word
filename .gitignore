@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+tmp/
+output/
+resolved-config.json
+qa-report.json

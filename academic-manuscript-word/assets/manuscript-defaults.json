@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "profile": "generic-journal-submission",
+  "fonts": {"east_asia": "SimSun", "ascii": "Times New Roman", "hansi": "Times New Roman", "complex_script": "Times New Roman", "color": "000000", "language_east_asia": "zh-CN", "language_latin": "en-US", "preserve_math_and_symbol_fonts": true},
+  "page": {"size": "A4", "width_mm": 210, "height_mm": 297, "orientation": "portrait", "margin_top_mm": 25.4, "margin_bottom_mm": 25.4, "margin_left_mm": 25.4, "margin_right_mm": 25.4, "gutter_mm": 0, "header_distance_pt": 36, "footer_distance_pt": 36, "columns": 1, "allow_landscape_sections": false, "different_first_page": false, "different_odd_even_pages": false},
+  "headers_footers": {"generate_header": false, "generate_page_number": true, "page_number_location": "footer", "page_number_alignment": "center", "restart_each_section": false, "start_number": 1},
+  "styles": {
+    "Normal": {"base": null, "font_size_pt": 12, "bold": false, "alignment": "justify", "space_before_pt": 0, "space_after_pt": 0, "line_spacing": {"mode": "multiple", "value": 1.5}, "first_line_indent": {"unit": "character", "value": 0}, "left_indent_pt": 0, "right_indent_pt": 0, "keep_with_next": false, "keep_lines_together": false, "widow_orphan_control": true, "page_break_before": false, "outline_level": null},
+    "Title": {"base": "Normal", "font_size_pt": 16, "bold": true, "alignment": "center", "space_before_pt": 0, "space_after_pt": 12, "line_spacing": {"mode": "multiple", "value": 1.2}, "keep_with_next": true, "keep_lines_together": true},
+    "Heading 1": {"base": "Normal", "font_size_pt": 14, "bold": true, "alignment": "left", "space_before_pt": 12, "space_after_pt": 6, "line_spacing": {"mode": "multiple", "value": 1.2}, "keep_with_next": true, "keep_lines_together": true, "outline_level": 0},
+    "Heading 2": {"base": "Normal", "font_size_pt": 12, "bold": true, "alignment": "left", "space_before_pt": 10, "space_after_pt": 4, "line_spacing": {"mode": "multiple", "value": 1.2}, "keep_with_next": true, "keep_lines_together": true, "outline_level": 1},
+    "Heading 3": {"base": "Normal", "font_size_pt": 12, "bold": true, "alignment": "left", "space_before_pt": 8, "space_after_pt": 3, "line_spacing": {"mode": "multiple", "value": 1.2}, "keep_with_next": true, "keep_lines_together": true, "outline_level": 2},
+    "Heading 4": {"base": "Normal", "font_size_pt": 12, "bold": false, "alignment": "left", "space_before_pt": 6, "space_after_pt": 3, "line_spacing": {"mode": "multiple", "value": 1.2}, "keep_with_next": true, "keep_lines_together": true, "outline_level": 3},
+    "Body Text": {"base": "Normal", "font_size_pt": 12, "bold": false, "alignment": "justify", "space_before_pt": 0, "space_after_pt": 0, "line_spacing": {"mode": "multiple", "value": 1.5}, "first_line_indent": {"unit": "character", "value": 2}, "widow_orphan_control": true},
+    "Abstract": {"base": "Body Text", "font_size_pt": 12, "first_line_indent": {"unit": "character", "value": 0}, "space_after_pt": 6},
+    "Keywords": {"base": "Normal", "font_size_pt": 12, "alignment": "left", "line_spacing": {"mode": "multiple", "value": 1.2}, "space_after_pt": 6},
+    "Caption": {"base": "Normal", "font_size_pt": 10.5, "alignment": "center", "space_before_pt": 6, "space_after_pt": 6, "line_spacing": {"mode": "multiple", "value": 1.0}, "keep_lines_together": true},
+    "Figure Caption": {"base": "Caption", "keep_with_next": false},
+    "Table Caption": {"base": "Caption", "keep_with_next": true},
+    "References": {"base": "Normal", "font_size_pt": 10.5, "alignment": "left", "space_before_pt": 0, "space_after_pt": 3, "line_spacing": {"mode": "multiple", "value": 1.0}, "first_line_indent": null, "hanging_indent_pt": 21, "keep_lines_together": false},
+    "Table Text": {"base": "Normal", "font_size_pt": 10.5, "alignment": "left", "line_spacing": {"mode": "multiple", "value": 1.0}},
+    "Figure Paragraph": {"base": "Normal", "alignment": "center", "keep_with_next": true},
+    "Header": {"base": "Normal", "font_size_pt": 10.5, "alignment": "center", "line_spacing": {"mode": "multiple", "value": 1.0}},
+    "Footer": {"base": "Header"}
+  },
+  "figures": {"default_layout": "inline", "alignment": "center", "max_width_fraction": 1.0, "max_height_fraction": 0.8, "preserve_aspect_ratio": true, "allow_crop": false},
+  "tables": {"max_width_fraction": 1.0, "alignment": "center", "autofit": false, "border_style": "three-line", "border_top_pt": 0.75, "border_header_bottom_pt": 0.5, "border_bottom_pt": 0.75, "vertical_borders": false, "shading": null, "cell_padding_top_pt": 3, "cell_padding_bottom_pt": 3, "cell_padding_left_pt": 4, "cell_padding_right_pt": 4, "repeat_header_rows": true, "row_height_mode": "auto", "allow_split_short_rows": false, "allow_split_oversize_rows": true},
+  "captions": {"numbering": "continuous", "figure_seq_identifier": "Figure", "table_seq_identifier": "Table", "figure_position": "below", "table_position": "above", "prefix_zh": {"figure": "图", "table": "表"}, "prefix_en": {"figure": "Figure", "table": "Table"}, "preserve_existing_label_language": true, "cross_reference_field": "REF", "update_fields_before_export": true},
+  "references": {"profile": "preserve", "available_profiles": ["preserve", "GB/T 7714", "APA", "IEEE"], "edition": null, "transform_entry_text": false, "reorder_entries": false, "renumber_citations": false, "preserve_manager_fields": true},
+  "qa": {"require_content_preservation": true, "require_pdf": true, "require_all_pages_visual_review": true, "render_dpi": 144, "geometry_tolerance_pt": 0.5, "max_auto_repair_iterations": 3, "fail_on_missing_fonts": true, "fail_on_unresolved_cross_references": true, "record_semantic_format_exceptions": true}
+}

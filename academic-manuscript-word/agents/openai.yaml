@@ -1,0 +1,6 @@
+interface:
+  display_name: "Word 默认学术排版"
+  short_description: "Codex 新建 Word 的默认中英文排版、集中样式配置与逐页视觉验收"
+  default_prompt: "使用 $academic-manuscript-word 按默认格式生成 Word 文件，并完成 PDF 逐页视觉检查。"
+policy:
+  allow_implicit_invocation: true
