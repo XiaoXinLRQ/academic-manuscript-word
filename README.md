@@ -1,4 +1,4 @@
-# Word 默认学术排版 Skill
+# Word 默认排版 Skill
 
 为 Codex 新建 Word/DOCX 文件提供简洁、传统的默认格式：中文宋体/SimSun，英文 Times New Roman，A4，原生 Word Styles，集中参数配置和 PDF 逐页视觉验收。
 
