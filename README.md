@@ -4,17 +4,34 @@
 
 本项目是一套可复用的 Skill 指令与配置，不是独立的 DOCX 转换程序。不修改已有 Word，也不强制生成摘要、关键词或参考文献。内容生成按用户任务授权执行，排版阶段保护已确定内容。
 
-## 安装与使用
+## 快速安装（推荐）
 
-将 `academic-manuscript-word` 文件夹复制到个人 Codex skills 目录（通常为 `~/.codex/skills/`）。保留已有其他 Skill。新建任务后可以显式调用：
+把下面这段话复制到 Codex，交给它完成安装与默认设置，无需手动复制文件或编辑配置：
 
 ```text
-使用 $academic-manuscript-word 生成一份 Word 文件。
+请按 https://github.com/XiaoXinLRQ/academic-manuscript-word/blob/main/INSTALL.md 安装这个 Skill，并设为新建 Word/DOCX 的默认排版。安装目录是仓库中的 academic-manuscript-word 子目录；保留已有其他 Skill 和全局指令，已有相同规则不要重复添加。
 ```
 
-自动发现已在 `agents/openai.yaml` 中启用。如希望所有新建 Word 都使用该格式，将 `AGENTS.example.md` 中的默认 Word 指令合并到个人 Codex 指令文件（通常为 `~/.codex/AGENTS.md`）；不要覆盖原有其他指令。按实际安装位置调整其中的 Skill 路径，并在新任务中检查是否加载。
+安装完成并在新任务中加载后，直接说：
 
-用户明确指定其他模板、字体或版式时，该任务要求优先。
+```text
+帮我生成一份 Word 文件，内容是……
+```
+
+默认采用本项目格式；指定其他模板时以你的要求为准。安装过程不会额外生成测试文档或安装整套文档工具。
+
+<details>
+<summary>仅安装 Skill 或手动安装</summary>
+
+若不需要全局默认设置，在 Codex 中发送：
+
+```text
+安装 https://github.com/XiaoXinLRQ/academic-manuscript-word/tree/main/academic-manuscript-word 这个 Skill，不修改我的全局默认指令。
+```
+
+安装后显式调用 `$academic-manuscript-word` 即可。手动安装时，将仓库中的同名子目录放到个人 Codex skills 目录，再根据需要合并 `AGENTS.example.md`；不要覆盖其他指令。
+
+</details>
 
 ## 配置
 
