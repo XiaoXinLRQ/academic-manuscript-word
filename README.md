@@ -49,3 +49,9 @@ config/task-overrides.example.json
 ```
 
 本次发布前已通过 Skill 结构校验与 JSON 解析检查。此前生成的三页演示稿完成 Word 导出 PDF 和逐页检查，并验证了标题主题覆盖修复；这不是对所有稿件、渲染引擎或参考文献体例的全面兼容性承诺。
+
+## Word 排版样例
+
+[下载三页 Word 默认排版样例](examples/Word默认排版样例.docx)
+
+样例展示中英文摘要、四级标题、三线表、图题、SEQ 编号、REF 交叉引用及参考文献悬挂缩进。已完成 Microsoft Word 导出 PDF 和逐页视觉检查。所有数据与文献条目均为虚构，仅供观察版式。
